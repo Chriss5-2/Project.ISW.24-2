@@ -1,4 +1,4 @@
-package Producto;
+package Aplicacion;
 
 public class Producto {
     private int idProduct;

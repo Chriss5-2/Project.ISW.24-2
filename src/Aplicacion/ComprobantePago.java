@@ -1,4 +1,4 @@
-package CompPago;
+package Aplicacion;
 
 import java.sql.Timestamp;
 

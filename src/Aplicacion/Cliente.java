@@ -1,4 +1,4 @@
-package Persona;
+package Aplicacion;
 
 import java.util.Date;
 
