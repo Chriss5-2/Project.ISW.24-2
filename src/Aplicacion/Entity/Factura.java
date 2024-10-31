@@ -1,4 +1,4 @@
-package Aplicacion;
+package Aplicacion.Entity;
 
 public class Factura extends MedioPago{
     private int ruc;

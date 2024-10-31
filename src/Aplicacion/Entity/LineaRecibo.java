@@ -1,10 +1,10 @@
-package Aplicacion;
+package Aplicacion.Entity;
 
-public class LineaCompra {
+public class LineaRecibo {
     private int cantidad;
     private int precio;
 
-    public LineaCompra(int cantidad, int precio) {
+    public LineaRecibo(int cantidad, int precio) {
         this.cantidad = cantidad;
         this.precio = precio;
     }

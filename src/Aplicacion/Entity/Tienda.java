@@ -1,4 +1,4 @@
-package Aplicacion;
+package Aplicacion.Entity;
 
 public class Tienda {
     private String direccion;

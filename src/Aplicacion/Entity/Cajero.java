@@ -1,4 +1,4 @@
-package Aplicacion;
+package Aplicacion.Entity;
 
 import java.util.Date;
 
