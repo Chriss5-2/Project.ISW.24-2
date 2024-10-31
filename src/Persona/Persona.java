@@ -12,7 +12,8 @@ public class Persona {
     private String telefono;
     private String email;
 
-    public Persona(String nombre, String apellidoPaterno, String apellidoMaterno, String direccion, String telefono, String email, Date fechaNacimiento) {
+    public Persona(int idPersona, String nombre, String apellidoPaterno, String apellidoMaterno, String direccion, String telefono, String email, Date fechaNacimiento) {
+        this.idPersona = idPersona;
         this.nombre = nombre;
         this.apellidoPaterno = apellidoPaterno;
         this.apellidoMaterno = apellidoMaterno;
