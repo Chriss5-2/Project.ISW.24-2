@@ -3,21 +3,11 @@ package Producto;
 import java.util.Date;
 
 public class Vino extends Bebida{
-    private double anejamiento;
     private String tipoUva;
 
-    public Vino(int idProduct, String descripcion, String nombre, double precio, int stock, double volumen, String origen, Date fechaCosecha, double anejamiento, String tipoUva) {
+    public Vino(int idProduct, String descripcion, String nombre, double precio, int stock, double volumen, String origen, Date fechaCosecha, String tipoUva) {
         super(idProduct, descripcion, nombre, precio, stock, volumen, origen, fechaCosecha);
-        this.anejamiento = anejamiento;
         this.tipoUva = tipoUva;
-    }
-
-    public double getAñejamiento() {
-        return anejamiento;
-    }
-
-    public void setAñejamiento(double añejamiento) {
-        this.anejamiento = añejamiento;
     }
 
     public String getTipoUva() {
