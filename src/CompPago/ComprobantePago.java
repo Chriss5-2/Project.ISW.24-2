@@ -7,6 +7,7 @@ public class ComprobantePago {
     private double monto;
     private int nroComprobante;
 
+
     public ComprobantePago(Timestamp fecha, double monto, int nroComprobante) {
         this.fecha = fecha;
         this.monto = monto;
