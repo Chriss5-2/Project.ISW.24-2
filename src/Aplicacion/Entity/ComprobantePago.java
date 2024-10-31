@@ -37,4 +37,6 @@ public class ComprobantePago {
     public void setNroComprobante(int nroComprobante) {
         this.nroComprobante = nroComprobante;
     }
+
+
 }
