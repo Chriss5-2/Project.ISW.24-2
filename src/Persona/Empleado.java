@@ -42,6 +42,7 @@ public class Empleado extends Persona{
         this.fechaContratacion = fechaContratacion;
     }
 
+
     public String getHorario() {
         return horario;
     }
