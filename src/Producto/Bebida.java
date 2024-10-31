@@ -5,13 +5,13 @@ import java.util.Date;
 public class Bebida extends Producto{
     private double volumen;
     private String origen;
-    private Date fechaProducción;
+    private Date fechaCosecha;
 
-    public Bebida(int idProduct, String descripcion, String nombre, double precio, int stock, double volumen, String origen, Date fechaProducción) {
+    public Bebida(int idProduct, String descripcion, String nombre, double precio, int stock, double volumen, String origen, Date fechaCosecha) {
         super(idProduct, descripcion, nombre, precio, stock);
         this.volumen = volumen;
         this.origen = origen;
-        this.fechaProducción = fechaProducción;
+        this.fechaCosecha = fechaCosecha;
     }
 
     public String getOrigen() {
@@ -30,11 +30,11 @@ public class Bebida extends Producto{
         this.volumen = volumen;
     }
 
-    public Date getFechaProducción() {
-        return fechaProducción;
+    public Date getFechaCosecha() {
+        return fechaCosecha;
     }
 
-    public void setFechaProducción(Date fechaProducción) {
-        this.fechaProducción = fechaProducción;
+    public void setFechaCosecha(Date fechaCosecha) {
+        this.fechaCosecha = fechaCosecha;
     }
 }

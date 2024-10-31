@@ -6,8 +6,8 @@ public class Pisco extends Bebida{
     private double anejamiento;
     private String tipoUva;
 
-    public Pisco(int idProduct, String descripcion, String nombre, double precio, int stock, double volumen, String origen, Date fechaProducción, double anejamiento, String tipoUva) {
-        super(idProduct, descripcion, nombre, precio, stock, volumen, origen, fechaProducción);
+    public Pisco(int idProduct, String descripcion, String nombre, double precio, int stock, double volumen, String origen, Date fechaCosecha, double anejamiento, String tipoUva) {
+        super(idProduct, descripcion, nombre, precio, stock, volumen, origen, fechaCosecha);
         this.anejamiento = anejamiento;
         this.tipoUva = tipoUva;
     }
