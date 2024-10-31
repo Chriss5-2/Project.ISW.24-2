@@ -1,4 +1,4 @@
 package Presentacion.realizarPedido;
 
-public interface IU_Pago {
+public class IU_Pago {
 }

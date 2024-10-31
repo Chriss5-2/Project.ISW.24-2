@@ -1,5 +1,4 @@
 package Presentacion.iniciarSesion;
 
-public interface IU_IniciarSesion {
+public class IU_IniciarSesion {
 }
-

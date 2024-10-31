@@ -1,4 +1,4 @@
 package Presentacion.comprarProductos;
 
-public interface IU_NuevoProducto {
+public class IU_NuevoProducto {
 }
