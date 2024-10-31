@@ -59,7 +59,7 @@ public class Producto {
         System.out.println("Nombre del producto "+nombre);
         System.out.println("Precio del producto "+precio);
         System.out.println("Stock del producto "+stock);
-        System.out.println("Stock del producto "+stock);
+        System.out.println("Descripcion del producto "+descripcion);
     }
 
     public void solicitarProducto(Producto producto){
