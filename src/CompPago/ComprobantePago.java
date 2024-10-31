@@ -1,6 +1,6 @@
 package CompPago;
 
-import java.security.Timestamp;
+import java.sql.Timestamp;
 
 public class ComprobantePago {
     private Timestamp fecha;
