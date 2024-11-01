@@ -3,10 +3,19 @@ package Aplicacion.Entity;
 public class LineaRecibo {
     private int cantidad;
     private int precio;
+    private ComprobantePago comprobante;
 
     public LineaRecibo(int cantidad, int precio) {
         this.cantidad = cantidad;
         this.precio = precio;
+    }
+
+    public ComprobantePago getComprobante() {
+        return comprobante;
+    }
+
+    public void setComprobante(ComprobantePago comprobante) {
+        this.comprobante = comprobante;
     }
 
     public int getCantidad() {

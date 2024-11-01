@@ -6,6 +6,10 @@ public class Producto {
     private String nombre;
     private double precio;
     private int stock;
+    private Carrito carrito;
+    private Almacen almacen;
+    private LineaCompra lineaCompra;
+    private Proveedor proveedor;
 
     public Producto(int idProduct, String descripcion, String nombre, double precio, int stock) {
         this.idProduct = idProduct;
@@ -13,6 +17,38 @@ public class Producto {
         this.nombre = nombre;
         this.precio = precio;
         this.stock = stock;
+    }
+
+    public Carrito getCarrito() {
+        return carrito;
+    }
+
+    public void setCarrito(Carrito carrito) {
+        this.carrito = carrito;
+    }
+
+    public Almacen getAlmacen() {
+        return almacen;
+    }
+
+    public void setAlmacen(Almacen almacen) {
+        this.almacen = almacen;
+    }
+
+    public LineaCompra getLineaCompra() {
+        return lineaCompra;
+    }
+
+    public void setLineaCompra(LineaCompra lineaCompra) {
+        this.lineaCompra = lineaCompra;
+    }
+
+    public Proveedor getProveedor() {
+        return proveedor;
+    }
+
+    public void setProveedor(Proveedor proveedor) {
+        this.proveedor = proveedor;
     }
 
     public int getIdProduct() {

@@ -3,10 +3,28 @@ package Aplicacion.Entity;
 public class LineaCompra {
     private int cantidad;
     private int precio;
+    private SolicitudCompra solicitudCompra;
+    private Producto producto;
 
     public LineaCompra(int cantidad, int precio) {
         this.cantidad = cantidad;
         this.precio = precio;
+    }
+
+    public SolicitudCompra getSolicitudCompra() {
+        return solicitudCompra;
+    }
+
+    public void setSolicitudCompra(SolicitudCompra solicitudCompra) {
+        this.solicitudCompra = solicitudCompra;
+    }
+
+    public Producto getProducto() {
+        return producto;
+    }
+
+    public void setProducto(Producto producto) {
+        this.producto = producto;
     }
 
     public int getCantidad() {

@@ -1,12 +1,25 @@
 package Aplicacion.Entity;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Proveedor {
     private String numEmpresa;
     private int ruc;
+    private List<Producto> productos;
 
     public Proveedor(String numEmpresa, int ruc) {
         this.numEmpresa = numEmpresa;
         this.ruc = ruc;
+        this.productos = new ArrayList<>();
+    }
+
+    public List<Producto> getProductos() {
+        return productos;
+    }
+
+    public void setProductos(List<Producto> productos) {
+        this.productos = productos;
     }
 
     public String getNumEmpresa() {
