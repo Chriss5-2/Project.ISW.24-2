@@ -10,5 +10,7 @@ public class CC_Pedido {
 
     public void ValidarTarjeta(){}
 
+    public void Aceptado(){}
+
     public void AbrirComunicación(){}
 }
